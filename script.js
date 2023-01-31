@@ -16,6 +16,8 @@ class Heart {
   }
 
   render() {
+    numEmails += 1;
+    document.title = "Inbox (" + numEmails.toString() + ")";
     const b = document.body;
     const heartElement = document.createElement("div");
     heartElement.innerText = HEART_BODY;
@@ -25,8 +27,6 @@ class Heart {
     heartElement.style.left = this.x.toString() + "px";
     heartElement.style.top = this.y.toString() + "px";
     b.appendChild(heartElement);
-    numEmails += 1;
-    document.title = "Inbox (" + numEmails.toString() + ")";
   }
 }
 
