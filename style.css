@@ -32,7 +32,7 @@ video {
 #email-content {
   border: 1px solid #cacaca;
   background-color: #ffffff;
-  width: 340px;
+  width: 330px;
   padding: 1em 0.6em;
   display: flex;
   flex-direction: row;
@@ -50,7 +50,7 @@ video {
   margin-right: 16px;
 }
 #header-parent {
-  width: 308px;
+  width: 298px;
   display: flex;
   justify-content: space-between;
 }
