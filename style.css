@@ -4,6 +4,9 @@ body {
   line-height: 24px;
   color: #282828;
   background-color: rgb(171, 157, 209);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 video {
@@ -19,7 +22,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 #email-content-container {
